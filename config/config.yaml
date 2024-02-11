@@ -1,0 +1,15 @@
+flow:
+  gather_data: True
+  prepare_data : True
+  run_training : True
+  inference:
+    single_inference:
+      flag: True
+      path: "./data/manual_test/DCIM_1141.jpg"
+    mulitple_inference:
+      flag: True
+      path: "./data"
+
+paths:
+  data_path: "./data"
+  model_save_path: "./models/unet.pth"
